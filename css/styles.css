@@ -1,0 +1,50 @@
+body {font-family: Roboto Raleway sans-serif;
+  color: #2E2F42;
+background: #FFF;
+font-style: normal;}
+ul {list-style-type: none;}
+a {text-decoration: none;
+  color: inherit;}
+button {cursor: pointer;}
+
+/* header */
+.nav {font-weight: 500; 
+  line-height: 1.5;
+  letter-spacing: 0.32px;}
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;}
+.logo-accent {color: #4D5AE5;}
+.nav-studio:hover {color: #404BBF;}
+.nav-studio:active {
+  color: #404BBF;
+text-decoration:underline;}
+.nav-item:hover {color: #404BBF;}
+.address {color: #434455;
+  }
+.address-mailto:hover {color: #404BBF;}
+.address-tel:hover {color: #404BBF;}
+
+/* Hero */
+.hero {background: #2E2F42;
+}
+.hero-title {color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 56px;
+  line-height: 10.71;
+  letter-spacing: 1.12px;
+  }
+.hero-button {color: #FFF;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  background:  #4D5AE5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
+.hero-button:hover {
+  background: #404BBF;}
