@@ -48,3 +48,37 @@ text-decoration:underline;}
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
 .hero-button:hover {
   background: #404BBF;}
+
+  /* Features */
+  .features-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;}
+  .features-text {color: #434455;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 0.32px;}
+
+    /* Team, Portfolio*/
+  .heading {
+    text-align: center;
+    font-size: 36px;
+    line-height: 11.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;}  
+   .title {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;}
+   .text {color: #434455;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.32px;}
+
+    /* Footer */
+    .footer {background: #2E2F42;}
+    .footer-text {color: #F4F4FD;
+      line-height: 1.5;
+      letter-spacing: 0.32px;}
