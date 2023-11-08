@@ -26,8 +26,10 @@ text-decoration:underline;}
 .nav-item:hover {color: #404BBF;}
 .address {color: #434455;
   }
-.address-mailto:hover {color: #404BBF;}
-.address-tel:hover {color: #404BBF;}
+.address-mailto:hover,
+.address-mailto:focus {color: #404BBF;}
+.address-tel:hover, 
+.address-tel:focus{color: #404BBF;}
 
 /* Hero */
 .hero {background: #2E2F42;
@@ -61,6 +63,7 @@ text-decoration:underline;}
     letter-spacing: 0.32px;}
 
     /* Team, Portfolio*/
+  .team {background: #F4F4FD;}
   .heading {
     text-align: center;
     font-size: 36px;
@@ -79,6 +82,13 @@ text-decoration:underline;}
 
     /* Footer */
     .footer {background: #2E2F42;}
+    .logo-footer {color: #F4F4FD;
+      font-family: Raleway;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 11.6;
+      letter-spacing: 0.54px;
+      text-transform: uppercase;}
     .footer-text {color: #F4F4FD;
       line-height: 1.5;
       letter-spacing: 0.32px;}
