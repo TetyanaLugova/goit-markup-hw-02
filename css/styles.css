@@ -1,4 +1,4 @@
-body {font-family: Roboto Raleway sans-serif;
+body {font-family: "Roboto" "Raleway" sans-serif;
   color: #2E2F42;
 background: #FFF;
 font-style: normal;}
@@ -12,7 +12,7 @@ button {cursor: pointer;}
   line-height: 1.5;
   letter-spacing: 0.32px;}
 .logo-accent {color: #4D5AE5;
-  font-family: Raleway sans-serif;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -20,6 +20,7 @@ button {cursor: pointer;}
   text-transform: uppercase;}
 .logo {
   color: #2E2F42; }
+.nav-item:focus,
 .nav-item:hover {color: #404BBF;}
 .address {color: #434455;
   font-style: normal;
@@ -41,7 +42,7 @@ button {cursor: pointer;}
   letter-spacing: 1.12px;
   }
 .hero-button {color: #FFF;
-  font-family: Roboto sans-serif;
+  font-family: "Roboto" sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -67,7 +68,7 @@ button {cursor: pointer;}
   .heading {
     text-align: center;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;}  
    .title {
